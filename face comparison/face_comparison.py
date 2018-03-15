@@ -2,7 +2,6 @@
 import dlib
 from skimage import io
 from scipy.spatial import distance
-import argparse
 
 #Create models for searching and finding persons in dlib¶
 sp = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
@@ -32,7 +31,6 @@ for k, d in enumerate(dets):
 face_descriptor1 = facerec.compute_face_descriptor(img, shape)
 
 print(face_descriptor1)
-dlib.hit_enter_to_continue()
 # uploading seconed image
 
 img = io.imread(image2)
@@ -47,7 +45,7 @@ for k, d in enumerate(dets_webcam):
     win2.clear_overlay()
     win2.add_overlay(d)
     win2.add_overlay(shape)
-dlib.hit_enter_to_continue()
+
 face_descriptor2 = facerec.compute_face_descriptor(img, shape)
 
 # Calculate the Euclidean distance between two dexryptors of individuals
