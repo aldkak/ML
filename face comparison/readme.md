@@ -6,7 +6,7 @@ http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2
 3. two photos to compare 
 it is recomended to all files and photos in the same directory
 #################################################################
- the code to excute the scripty is 
+
+the code to excute the scripty is 
 $ python face_comparison.py
 it will ask to input the path for the first image and the seconed 
-
