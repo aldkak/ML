@@ -1,5 +1,5 @@
 # Recognition of dogs and cats on images using a convolutional neural network CNN
-# Data source - Kaggle Dogs vs. competition. Cats.
+# Data source - https://www.kaggle.com/c/dogs-vs-cats/
 # Before using, you must download and prepare data for training, testing
 
 # step 1  import models 
