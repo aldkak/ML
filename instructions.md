@@ -1,17 +1,18 @@
 set your linux os to work with ML 
 use the following command
-#update the system
 
-   $sudo apt-get update
-   $sudo apt-get upgrade
-#installing some packages
-  $sudo apt-get install build-essential cmake g++ gfortran 
-  $sudo apt-get install git pkg-config python-dev 
-  $sudo apt-get install software-properties-common wget
-  $sudo apt-get install libhdf5
-  $sudo pip3 install h5py
-  $sudo apt-get autoremove 
-  $sudo rm -rf /var/lib/apt/lists/*
+# update the system
+
+sudo apt-get update
+sudo apt-get upgrade
+# installing some packages
+sudo apt-get install build-essential cmake g++ gfortran 
+sudo apt-get install git pkg-config python-dev 
+sudo apt-get install software-properties-common wget
+sudo apt-get install libhdf5
+sudo pip3 install h5py
+sudo apt-get autoremove 
+sudo rm -rf /var/lib/apt/lists/*
   
 
 # installing OpenCV
