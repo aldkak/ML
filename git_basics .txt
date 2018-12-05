@@ -1,0 +1,27 @@
+# install git on ubuntu
+
+sudo apt-get install git
+
+# 
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com
+
+#
+git config --global core.quotepath off
+
+
+# 
+git init
+
+# add files
+git add <file>
+git commit -m "First Commit"
+
+#
+git status
+
+# project history
+git log
+
+# example
+git log --all --pretty=format:"%h %cd %s (%an)" --since='7 days ago'
