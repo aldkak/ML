@@ -91,14 +91,14 @@ the enviorment before installing any packges
   `$cd ~`
   `$workon cv`
   `$python`
-  
+<code> 
 `Python 3.5.2 (default, Nov 23 2017, 16:37:01) 
 [GCC 5.4.0 20160609] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import cv2
 >>> cv2.__version__
 '3.4.0'
->>> `
+>>> `</code>
 -------------------------------------------------------------------------------
 # now let's install other packages to work with machine learning in python 3
 -------------------------------------------------------------------------------
